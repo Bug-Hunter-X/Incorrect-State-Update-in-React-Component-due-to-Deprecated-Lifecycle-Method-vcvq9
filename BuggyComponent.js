@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method for updating the state based on prop changes. The `componentWillReceiveProps` lifecycle method is deprecated in React 16.3 and removed in React 17.  It should be replaced with `getDerivedStateFromProps` or `componentDidUpdate`. Using `componentWillReceiveProps` leads to unexpected behavior or errors in newer React versions.
